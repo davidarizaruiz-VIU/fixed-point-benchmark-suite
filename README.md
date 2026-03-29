@@ -1,8 +1,8 @@
-# Fixed-Point Benchmark Suite in the Poincare Disk
+# Intrinsic Fixed-Point Benchmark Suite in the Poincare Disk
 
 Reproducible code and precomputed numerical outputs for severe centered and shifted hyperbolic fixed-point benchmarks.
 
-Author: David Ariza Ruiz
+Author: David Ariza Ruiz (Valencian International University, Spain)
 
 ## Overview
 
@@ -62,7 +62,7 @@ The script creates:
 
 ## Included data
 
-The `data/` directory contains a precomputed release of the severe benchmark experiment with 500 independent runs per scenario. These files can be used directly for manuscript tables, statistical checks, and reproducibility audits without rerunning the full simulation.
+The `data/` directory contains a precomputed benchmark dataset for the severe regime with 500 independent runs per scenario. These files can be used directly for manuscript tables, statistical checks, and reproducibility audits without rerunning the full simulation.
 
 ## Reproducibility notes
 
@@ -72,8 +72,20 @@ The `data/` directory contains a precomputed release of the severe benchmark exp
 - The Euclidean working ball is a benchmark modelling choice for the computational study.
 - Deterministic baselines are matched to the genetic algorithm by the common budget unit "number of evaluations of T".
 
-## Citation and authorship
+## License
 
-If you use this code or data, please acknowledge the repository author:
+MIT License. See [LICENSE](LICENSE) for details.
 
-David Ariza Ruiz.
+## Citation
+
+If you use this code, please cite:
+
+```bibtex
+@article{ArizaRuiz2026RMGA,
+  author  = {Ariza-Ruiz, David},
+  title   = {A Refreshed Metric Genetic Algorithm for $(E_\mu)$~Mappings in CAT(0) Spaces},
+  journal = {Soft Computing},
+  year    = {2026},
+  note    = {Submitted}
+}
+```
