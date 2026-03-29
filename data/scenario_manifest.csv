@@ -1,0 +1,9 @@
+family,benchmark,method,label,gamma,zstar_x,zstar_y,rho_work,init_rmin_factor,init_angle_min,init_angle_max,ga_pop_size,ga_generations,ga_mutation_prob,ga_refresh_eps,ga_refresh_law,ga_tournament_size,ga_target,det_target,det_alpha_mode
+benchmark_suite,central,GA_0.00,central|GA_0.00,0.9,0.0,0.0,0.97,0.88,-0.3926990816987241,0.3926990816987241,100.0,250.0,0.4,0.0,uniform,2.0,1e-05,,
+benchmark_suite,central,GA_0.10,central|GA_0.10,0.9,0.0,0.0,0.97,0.88,-0.3926990816987241,0.3926990816987241,100.0,250.0,0.4,0.1,uniform,2.0,1e-05,,
+benchmark_suite,central,Halpern,central|Halpern,0.9,0.0,0.0,0.97,0.88,-0.3926990816987241,0.3926990816987241,,,,,,,,1e-05,harmonic
+benchmark_suite,central,Mann,central|Mann,0.9,0.0,0.0,0.97,0.88,-0.3926990816987241,0.3926990816987241,,,,,,,,1e-05,harmonic
+benchmark_suite,shifted,GA_0.00,shifted|GA_0.00,0.9,0.55,0.25,0.97,0.88,-0.3926990816987241,0.3926990816987241,100.0,250.0,0.4,0.0,uniform,2.0,1e-05,,
+benchmark_suite,shifted,GA_0.10,shifted|GA_0.10,0.9,0.55,0.25,0.97,0.88,-0.3926990816987241,0.3926990816987241,100.0,250.0,0.4,0.1,uniform,2.0,1e-05,,
+benchmark_suite,shifted,Halpern,shifted|Halpern,0.9,0.55,0.25,0.97,0.88,-0.3926990816987241,0.3926990816987241,,,,,,,,1e-05,harmonic
+benchmark_suite,shifted,Mann,shifted|Mann,0.9,0.55,0.25,0.97,0.88,-0.3926990816987241,0.3926990816987241,,,,,,,,1e-05,harmonic

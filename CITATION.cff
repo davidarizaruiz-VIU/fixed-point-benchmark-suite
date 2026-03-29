@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+title: Fixed-Point Benchmark Suite in the Poincare Disk
+authors:
+  - family-names: Ariza Ruiz
+    given-names: David
+message: "If you use this repository, please acknowledge the author and cite the associated manuscript when appropriate."
